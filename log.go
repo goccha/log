@@ -15,17 +15,17 @@ func Reset() {
 }
 
 func debugLog(format string, v ...interface{}) {
-	log.Debug().Msgf(format, v)
+	log.Debug().Msgf(format, v...)
 }
 
 func infoLog(format string, v ...interface{}) {
-	log.Info().Msgf(format, v)
+	log.Info().Msgf(format, v...)
 }
 
 func warnLog(format string, v ...interface{}) {
-	log.Warn().Msgf(format, v)
+	log.Warn().Msgf(format, v...)
 }
 
 func errorLog(format string, v ...interface{}) {
-	log.Error().Msgf(format, v)
+	log.Error().Msgf(format, v...)
 }
